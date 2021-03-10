@@ -1,0 +1,16 @@
+Here is the initial release of the tank platform for Spring 2019 - CSC 340.
+
+Quick Start:
+% make
+
+This will build all the *AI*.cpp files in the src/ directory.  These should
+serve as some examples of how the platform API will behave.  Once the tanks
+are built, you can pit them against one another in the game by modifying the
+config.ini and map.txt files.
+
+The config.ini file contains a number of configurable fields like which tank
+to load, which image to use for tanks, projectiles, and map elements.
+
+The map.txt file allows you to configure the obstacles and other features on
+the playfield map as well as the dimensions of the map and starting locations
+of the tanks.
